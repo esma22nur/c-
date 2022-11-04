@@ -47,3 +47,15 @@ int main()
 	return main();
 	}
 	else { cout << "tebrikler dogru"; }
+	
+	//WHİLE
+	//Kullanıcıdan bir sayı alın ve bu sayıya eşit ve küçük, 0'dan büyük olan tüm çift sayıları ekrana yazdırın. 
+	int sayı, çift;
+	cout << "sayı giriniz";
+	cin >> sayı;
+	if (sayı % 2 == 0){
+		cout << "sayı çift";
+		while (sayı > 0) { sayı = sayı - 2; cout << sayı <<endl; }
+	}
+	else {cout << "sayı tek";}
+	
