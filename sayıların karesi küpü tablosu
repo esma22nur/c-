@@ -1,0 +1,13 @@
+//Kullanıcıdan gidilecek son sayı değerini öğrenin ve 0'dan başlayarak o sayı değerine kadar olan tüm sayıların karesini ve 
+ //küpünü aşağıdaki tablo tarzında yazdırın.
+	int sondeger,kare,kup,i=0;
+	cout << "son degeri giriniz: ";
+	cin >> sondeger;
+	for (i=0; i<=sondeger; i++) {
+		kare = i*i;
+		kup = i *i *i;
+
+
+		cout << "karesi" << "   " << "kupu" << endl;
+		cout << kare << "         " << kup << endl;
+	}
