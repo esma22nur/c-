@@ -35,13 +35,15 @@ int main()
 	cout << "ucgenin alani: " << alan;
 	
 	
-	
-	/İF - ELSE
-	//Kullanıcı tarafından girilen bir sayının bizim atadığımız sayıya yakın mı yoksa uzak mı olduğunu kullanıcıya bildirelim.
+	//İF-ELSE
 	int sayı = 20,a;
-	cout << "sayi giriniz: ";
+	cout << "sayi giriniz: "<<endl;
 	cin >> a;
-	if (a < 20) { cout << "sayiniz kucuk"; }
-	else if (a > 20) { cout << "sayiniz buyuk "; }
+	if (a < 20) {
+		cout << "sayiniz kucuk"<< endl;
+		return main();
+	}
+	else if (a > 20) { cout << "sayiniz buyuk "<<endl;
+	return main();
+	}
 	else { cout << "tebrikler dogru"; }
-
