@@ -59,3 +59,15 @@ int main()
 	}
 	else {cout << "sayı tek";}
 	
+	
+	
+	
+	//for döngüsü ile girilen sayıya kadar olan çift sayıları yazdır.
+	int sayı,i;
+	cout << "sayı gir";
+	cin >> sayı;
+	for (sayı; sayı > 0; sayı=sayı-2) {
+		cout << sayı<<endl;
+
+	}
+	
