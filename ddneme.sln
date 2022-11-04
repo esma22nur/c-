@@ -22,3 +22,14 @@ int main()
 	//-->define komutu mainin üstüne bir değişken tanımlıyoruz ve programdaistediğimiz gibi tekrar tanımlamadan kullanabiliriz.
 	//tanımlarken kare kullan ve eşittir kullanma.
 	cout << pi * 3;
+	
+	//ÖRNEK://Kullanıcıdan 2 farklı değer alalım. Alınan değerleri üçgenin bir kenarı ve hipotenüs, verilmeyen değeri ise ikinci kenarı kabul edelim
+//ilk önce ikinci kenarı hesaplayalım ve akabinde üçgenin alanını bulalım.
+	int a, b, h,alan;
+	cout << "ucgenin hipotenus ve bir kenarin uzunlugunu giriniz: \n";
+	cin >> a;
+	cin >> h;
+	b=sqrt((h * h) - (a * a));
+	cout << "bilinmeyen kenar uzunlugu: " << b;
+	alan = (a * b) / 2;
+	cout << "ucgenin alani: " << alan;
