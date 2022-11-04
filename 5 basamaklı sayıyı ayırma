@@ -1,0 +1,14 @@
+//Kullanıcıdan 5 basamaklı bir sayı alın. Bu sayıyı aralarında 8 karakter boşluk olacak şekilde rakamlar halinde yazın
+	int sayı,basamak1,basamak2,basamak3,basamak4,basamak5;
+	cout << "beş haneli bir sayı giriniz";
+	cin >> sayı;
+	basamak1 = sayı % 10;
+	basamak2 = sayı % 100;
+	basamak2=basamak2 / 10;
+	basamak3 = sayı % 1000;
+	basamak3 = basamak3 / 100;
+	basamak4 = sayı % 10000;
+	basamak4 = basamak4 / 1000;
+	basamak5 = sayı % 100000;
+	basamak5 = basamak5 / 10000;
+	cout <<basamak1 <<"\t"<< basamak2 << "\t" << basamak3 << "\t" << basamak4 << "\t" << basamak5;
