@@ -1,31 +1,24 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ddneme", "ddneme\ddneme.vcxproj", "{37F704B3-1A6A-41A3-B2F2-E478D0830E38}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Debug|x64.ActiveCfg = Debug|x64
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Debug|x64.Build.0 = Debug|x64
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Debug|x86.ActiveCfg = Debug|Win32
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Debug|x86.Build.0 = Debug|Win32
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Release|x64.ActiveCfg = Release|x64
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Release|x64.Build.0 = Release|x64
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Release|x86.ActiveCfg = Release|Win32
-		{37F704B3-1A6A-41A3-B2F2-E478D0830E38}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {31272E78-5180-40E6-88E9-A936A04C580A}
-	EndGlobalSection
-EndGlobal
+using namespace std;
+#include <math.h>
+#include <iostream>
+//define tanımı
+#define pi 3.14
+int main()
+{
+	// GİRİŞ
+	/*PROGRAM YAPISSI
+	-->#include komutu altında kütüphane çağırıyoruz.
+	-->std 'nin anlamı ise standard character output device (standart karakter çıktı cihazı) bununla birlikte sürekli kullanacağımız 
+	cout ve cin ifadelerini eklemiş olduk.
+	-->Cout'ekrana yazdırmak için cin isekullanıcıdan veri almak için kullanırız.*/
+	int a;
+	cout << "a sayısı giriniz";
+	cin >> a;
+	//-->/n ya da endl çıktı aldığımız yazıları alt alta kazdırmak için kullanırız.!!\n tırnak içine endl dışarı tek başına yazılır.
+	cout << "hello";
+	cout  << "\nworld";
+	//--> \t ise arada 8 karakter boşluk bırakır.
+	cout << "hello\t" << "world";
+	//-->define komutu mainin üstüne bir değişken tanımlıyoruz ve programdaistediğimiz gibi tekrar tanımlamadan kullanabiliriz.
+	//tanımlarken kare kullan ve eşittir kullanma.
+	cout << pi * 3;
