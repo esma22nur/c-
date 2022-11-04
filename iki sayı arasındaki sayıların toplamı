@@ -1,0 +1,11 @@
+//Kullanıcıdan bir başlangıç, bir bitiş sayısı alın. Aldığınız sayıları ve arasındakileri toplayın. 
+	int başlangıç, bitiş,i;
+	int toplam = 0;
+	cout << "başlangıç sayısı giriniz.";
+	cin >> başlangıç;
+	cout << "bitiş sayısı giriniz: ";
+	cin >> bitiş;
+	for (i = başlangıç; i <= bitiş; i++) {
+		toplam = toplam + i;
+	}
+	cout << toplam;
